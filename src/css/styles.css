@@ -23,3 +23,41 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+#datetime-picker {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.timer {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.timer .field {
+  margin: 0 10px;
+}
+
+.timer .value {
+  display: block;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.timer .label {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+button[data-start] {
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
